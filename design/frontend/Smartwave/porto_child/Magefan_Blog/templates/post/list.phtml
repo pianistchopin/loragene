@@ -1,0 +1,75 @@
+<?php
+/**
+ * Copyright © 2016 Ihor Vansach (ihor@magefan.com). All rights reserved.
+ * See LICENSE.txt for license details (http://opensource.org/licenses/osl-3.0.php).
+ *
+ * Glory to Ukraine! Glory to the heroes!
+ */
+
+use Magento\Framework\App\Action\Action;
+
+?>
+<?php
+/**
+ * Blog post list template
+ *
+ * @var $block \Magefan\Blog\Block\Post\PostList
+ */
+?>
+<?php
+$_postCollection = $block->getPostCollection();
+?>
+<?php if (!$_postCollection->count()): ?>
+    <div class="message info empty"><div><?php echo __('We can\'t find posts matching the selection.') ?></div></div>
+<?php else: ?>
+    <?php echo $block->getAdditionalHtml() ?>
+
+<div class="row">
+    <div class="col-12">
+    <div class="blog-fullwidth-row">
+        <img class="w-100" src="/pub/media/magefan_blog/tmp/stories_top.png" alt=""/>
+    </div>
+    </div>
+</div>
+
+    <div class="post-list-wrapper">
+
+        <?php
+            $iterator = 1;
+            $col_index = 0;
+        ?>
+        <ol class="post-list">
+            <?php foreach ($_postCollection as $_post): ?>
+            <div class="row">
+                <?php $col_index++; ?>
+                <?php if ($col_index % 2 == 1): ?>
+                <div class="col-md-6 offset-md-6 col-sm-12">
+                    <?php echo $block->getPostHtml($_post) ?>
+                </div>
+                <?php else: ?>
+                <div class="col-md-6 col-sm-12">
+                    <?php echo $block->getPostHtml($_post) ?>
+                </div>
+                <?php endif; ?>
+            </div>
+
+            <?php endforeach; ?>
+        </ol>
+    </div>
+
+    <?php echo $block->getToolbarHtml() ?>
+
+    <script type="text/javascript">var addthis_config = {"data_track_clickback":false};</script>
+    <script type="text/javascript" async src="//s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4def63cd3cf37569"></script>
+    <script type="text/javascript">
+        var addthis_config = {
+            ui_language: "en"
+        }
+    </script>
+<?php endif; ?>
+
+<style type="text/css">
+    .breadcrumbs{
+        display: none;
+    }
+</style>

@@ -1,0 +1,13 @@
+<?php /** @var \Drielen\RecentlyViewed\Block\Listing $block  */?>
+<div class="js-recently-viewed"></div>
+
+<script type="text/x-magento-init">
+    {
+        ".js-recently-viewed": {
+            "Drielen_RecentlyViewed/js/recent-listing": {
+                "url": "<?= /* @noEscape */ $block->getAjaxUrl() ?>",
+                "product_id": "<?= /* @noEscape */ $block->getCurrentProductId() ?>"
+            }
+        }
+    }
+</script>

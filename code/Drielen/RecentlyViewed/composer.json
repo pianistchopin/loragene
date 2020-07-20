@@ -1,0 +1,20 @@
+{
+    "name": "drielen/recentlyviewed",
+    "description": "N/A",
+    "type": "magento2-module",
+    "license": [
+        "proprietary"
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "magento/framework": ">=101.0.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Drielen\\RecentlyViewed\\": ""
+        }
+    }
+}

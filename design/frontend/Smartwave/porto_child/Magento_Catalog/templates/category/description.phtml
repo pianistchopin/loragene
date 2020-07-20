@@ -1,0 +1,34 @@
+<?php
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+// @codingStandardsIgnoreFile
+
+?>
+<?php
+/**
+ * Category view template
+ *
+ * @var $block \Magento\Catalog\Block\Category\View
+ */
+?>
+<?php
+    $_category_desc = $this->helper('Smartwave\Porto\Helper\Data')->getConfig('porto_settings/category/category_description');
+?>
+<?php if (!$_category_desc && $_description = $block->getCurrentCategory()->getDescription()): ?>
+    <div class="category-description text-align-center">
+        <p class="title-category-name">
+            <span class="f-title f-5 py-4">
+                <?= $block->getCurrentCategory()->getName(); ?>
+            </span>
+        </p>
+        <p class="page-category-description">
+            <span class="f-menu f-4">
+                <?php echo $this->helper('Magento\Catalog\Helper\Output')->categoryAttribute($block->getCurrentCategory(), $_description, 'description') ?>
+            </span>
+        </p>
+
+    </div>
+<?php endif; ?>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="product.info.details">
+            <block class="Drielen\RecentlyViewed\Block\RecentlyViewedTab" name="product.details.recentlyviewed" template="Drielen_RecentlyViewed::product/tab.phtml" group="detailed_info">
+                <arguments>
+                    <argument translate="true" name="title" xsi:type="string">Previously viewed</argument>
+                    <argument name="sort_order" xsi:type="string">40</argument>
+                </arguments>
+
+                <block class="Drielen\RecentlyViewed\Block\Listing" name="product.details.recentlyviewed.listing" template="Drielen_RecentlyViewed::product/listing.phtml"/>
+            </block>
+        </referenceContainer>
+    </body>
+</page>

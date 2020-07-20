@@ -1,0 +1,1097 @@
+
+
+img{width: 100%;    height: auto;}
+.w-100{width: 100%;}
+.h-100{height: 100%;}
+
+
+.margin-0{margin: 0px!important;}
+.padding-0{padding: 0px!important;}
+
+.width-height-100{	width: 100%;	height: 100%;}
+
+.product-info-price .price-label{    display: none!important;}
+
+
+.text-align-center{text-align: center}
+.text-align-end{text-align: end}
+.text-align-start{text-align: start}
+
+
+
+
+@font-face {
+	font-family: 'Gilda Display Regular';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Gilda Display Regular'), url('../fonts/GildaDisplay-Regular.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Optima';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Optima'), url('../fonts/OPTIMA.woff') format('woff');
+}
+
+
+@font-face {
+	font-family: 'Optima Italic';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Optima Italic'), url('../fonts/Optima_Italic.woff') format('woff');
+}
+
+
+@font-face {
+	font-family: 'Optima Medium';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Optima Medium'), url('../fonts/Optima Medium.woff') format('woff');
+}
+
+
+@font-face {
+	font-family: 'Optima Bold';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Optima Bold'), url('../fonts/OPTIMA_B.woff') format('woff');
+}
+
+.color-grey{color: #808080!important;}
+.color-dark-grey{color: #808080!important;}
+.color-light-grey{color: #D3D3D3!important;}
+.color-white{color: white!important;}
+.color-black{color: black!important;}
+
+.background-color-grey{color: #808080!important;}
+.background-color-dark-grey{color: #808080!important;}
+.background-color-light-grey{color: #D3D3D3!important;}
+.background-color-white{color: white!important;}
+.background-color-black{color: black!important;}
+
+.btn-c-default{background-color: #D3D3D3!important;   height: 50px;}
+
+/*font */
+.f-title{font-family: 'Optima'!important; font-weight: 700}
+.f-menu{font-family: 'Optima'!important;}
+.f-default{font-family: 'Optima'!important;}
+.f-prodcut-name{font-family: 'Optima'!important;}
+.f-content{font-family: 'Gilda Display Regular'!important;}
+.f-title-gilda{font-family: 'Gilda Display Regular'!important;}
+
+.f-default-optima{font-family: 'Optima'!important;}
+.f-default-gilda{font-family: 'Gilda Display Regular'!important;}
+
+
+
+body, button, p, span {
+	font-family: 'Gilda Display Regular';
+}
+
+body{
+	font-size: 1.3rem!important;
+}
+
+.top-links-area .header.links li a{
+	font-family: 'Optima'!important;
+}
+
+.block.category.event,.footer.content,.header.content,.navigation,.page-header .header.panel,.page-main,.page-wrapper>.breadcrumbs,.page-wrapper>.page-bottom,.page-wrapper>.widget,.top-container{max-width:100%!important;}
+
+
+.breadcrumbs{
+	max-width: 100%!important;
+}
+
+
+.block-title.title{
+	display: flex;
+	justify-content: center;
+}
+
+.product.name.product-item-name{
+	text-align: center;
+}
+.product.name.product-item-name a{
+
+}
+
+.block-title.title strong#block-related-heading{
+	font-size: 4rem;
+}
+
+
+
+.ui-menu-item.level0.fullwidth.parent a.level-top span{
+	font-family: 'Optima'!important;
+}
+
+.ui-menu-item.level0.fullwidth.parent div.level0.submenu{
+	left: auto;
+	right: 0;
+	background: #ffffff78;
+	border-radius: 0px 6px 6px;
+}
+.ui-menu-item.level0.fullwidth.parent div.level0.submenu ul.subchildmenu li.ui-menu-item.level1 a span{
+	font-size: 1.5rem!important;
+	font-family: 'Optima'!important;
+}
+
+/*size chart ==*/
+.size-chart tr.odd td{
+	background: #f2f2f2;
+}
+
+	/*main menu setting-----------end*/
+
+
+/*product page-----------------start*/
+.product-info-main .page-title-wrapper h1 {
+	margin: 3px 0 40px!important;
+
+}
+.page-title-wrapper h1.page-title span{
+	font-family: 'Optima'!important;
+}
+
+.product-options-bottom .price-box .price-container .price, .product-info-price .price-box .price-container .price{
+	font-family: 'Optima Medium'!important;
+}
+
+.footer-top .block .block-title strong{
+	color: black!important;
+}
+/*product page-----------------end*/
+
+
+/* --------------------------------------------------------------------------------------------------------------------- < 640 */
+@media (max-width: 640px) {
+
+
+}
+
+/* --------------------------------------------------------------------------------------------------------------------- < 496 */
+@media (max-width: 350px) {
+	.product-info-main .box-tocart .actions{
+		margin-right: 0px!important;
+	}
+	.box-tocart .action.tocart, .bundle-options-container .block-bundle-summary .box-tocart .action.primary{
+		margin-right: 0px!important;
+		margin-left: -0px!important;
+		margin-bottom: 10px!important;
+	}
+	.product-addto-links .action{
+		margin-right: 0px!important;
+	}
+}
+
+@media (max-width: 496px) {
+
+	.product-info-main{
+		padding: 0px;
+	}
+
+	/*beauty -banner  --start*/
+	.beauty-banner{
+		margin-left: 12vw;
+		margin-top: 0rem;
+	}
+
+	.beauty-banner-title{
+		font-weight: 500;
+		font-size: 1.75rem;
+	}
+	.beauty-banner-content{
+		font-weight: 500;
+		font-size: 1.25rem;
+	}
+	.beauty-banner-action{
+		margin-top: 2vw;
+		width: 23vw;
+		height: 3rem!important;
+		font-size: 1.25rem!important;
+		background: white!important;
+		border: 0px solid #ccc!important;
+	}
+	/*beauty -banner end*/
+
+
+	.f-8{font-size: 6rem!important;}
+	.f-7{font-size: 3rem!important;}
+	.f-6{font-size: 1.75rem!important;}
+	.f-5{font-size: 1.75rem!important;}
+	.f-4{font-size: 1.25rem!important;}
+	.f-3{font-size: 1.25rem!important;}
+	.f-2{font-size: 1.1rem!important;}
+	.f-1{font-size: 1rem!important;}
+
+	/*top page top title*/
+	.top-slid-top-content{margin-left: 2vw;}
+	.top-slid-top-title{font-size: 2.25rem!important;letter-spacing: 1px;margin-bottom: 10px;}
+	.top-slid-top-title-content{font-size: 1.25rem!important;letter-spacing: 1px;margin-bottom: 10px;}
+	.top-slid-top-title-button{font-size: 1.75rem!important;   letter-spacing: 1px;}
+
+	.nav-open .nav-sections {
+		width: calc(100% - 100px)!important;
+	}
+
+}
+/* ---------------------------------------------------------------------------------------------------------------------< 497 - 767 > */
+@media (min-width: 497px) and (max-width: 767px){
+
+	.nav-open .nav-sections {
+		width: 320px!important;
+	}
+	/*category page ----start*/
+
+	/*beauty -banner  --start*/
+	.beauty-banner{
+		margin-left: 10vw;
+		margin-top: 0rem;
+	}
+
+	.beauty-banner-title{
+		font-weight: 500;
+		font-size: 1.75rem;
+	}
+	.beauty-banner-content{
+		font-weight: 500;
+		font-size: 1.25rem;
+	}
+	.beauty-banner-action{
+		margin-top: 2vw;
+		width: 21vw;
+		height: 3rem!important;
+		font-size: 1.25rem!important;
+		background: white!important;
+		border: 0px solid #ccc!important;
+	}
+	/*beauty -banner end*/
+
+	.f-8{font-size: 6rem!important;}
+	.f-7{font-size: 5rem!important;}
+	.f-6{font-size: 2rem!important;}
+	.f-5{font-size: 2.25rem!important;}
+	.f-4{font-size: 1.75rem!important;}
+	.f-3{font-size: 1.25rem!important;}
+	.f-2{font-size: 1.1rem!important;}
+	.f-1{font-size: 1rem!important;}
+
+
+	/*top page top title*/
+	.top-slid-top-content{margin-left: 2vw;}
+	.top-slid-top-title{font-size: 2.5rem!important;letter-spacing: 3px;margin-bottom: 15px;}
+	.top-slid-top-title-content{font-size: 1.25rem!important;letter-spacing: 3px;margin-bottom: 15px;}
+	.top-slid-top-title-button{font-size: 2rem!important;   letter-spacing: 3px;}
+
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------------- 767 > */
+@media (max-width: 767px) {
+
+	.action-size-chart{
+		display: none;
+	}
+	.custom-f-size1{font-size: 1rem!important;}
+	.custom-f-size2{font-size: 1rem!important;}
+	.custom-f-size3{font-size: 1rem!important;}
+	.custom-f-size4{font-size: 1.2rem!important;}
+	.custom-f-size5{font-size: 1.5rem!important;}
+	.custom-f-size6{font-size: 2.1rem!important;}
+	.custom-f-size7{font-size: 2.25rem!important;}
+	.custom-f-size8{font-size: 2.3rem!important;}
+	.custom-f-size9{font-size: 3.1rem!important;}
+	.custom-f-size10{font-size: 3.4rem!important;}
+
+	.products-grid .product-item{ width: 100%;}
+	.category_product_list{height: 150vw;object-fit: cover;}
+
+
+	.nav-toggle:before, .block-search .label:before {color: #A9A9A9!important;}
+
+
+
+	.page-main{padding: 3vw!important;}
+	.blog-fullwidth-row{
+		width: 100vw;
+		margin: 0 -3vw 3vw!important;
+	}
+
+	/* product page ----start*/
+	.product-info-main .page-title-wrapper h1 {margin: 5px 0px!important;text-align: center;}
+	.product-info-main .page-title-wrapper h1.page-title span{font-size: 2rem;}
+
+	.product-info-stock-sku{text-align: center!important;padding: 5px 0 10px!important;}
+
+	.swatch-attribute.color{text-align: center;margin-bottom: 18px;}
+	.swatch-attribute.color.span{font-size: 1.5rem!important;}
+
+	.swatch-option.color{min-width: 6vw!important;height: 6vw!important;border-radius: 20px;}
+
+	.swatch-attribute.size{text-align: center;}
+	/*image gallery*/
+	.gallery-img-detail {
+		width: 100%;
+		height: 153vw;
+		object-fit: cover;
+		transform: scale(1.05);
+	}
+
+	.wear-with-head-title{font-size: 2.5rem;margin: 5vw 0;color: black;font-family: 'Optima'}
+	/* product page ----end*/
+
+
+
+	.catalog-product-view:not(.weltpixel-quickview-catalog-product-view):not(.weltpixel_quickview-catalog_product-view) .product.media{
+		margin-bottom: 0px!important;
+		padding-right: 0!important;
+	}
+
+	.yotpoBottomLine{
+		text-align: center;
+		padding: 5px 0;
+	}
+
+
+
+	.cms-loragene-home1 .logo img{
+		display:block!important;
+	}
+	.price-box.price-final_price{
+		display: table-caption!important;
+		text-align: center;
+		margin: 0;
+		padding: 5px 0 0!important;
+	}
+
+	.product-options-bottom{
+		text-align: center;
+	}
+
+
+	.about_title_property{
+		color: black;
+		margin: 3rem 3rem 0!important;
+	}
+	.product-item-inner{
+		display: none;
+	}
+
+
+
+
+
+	/*	blog post*/
+
+	.post-header .post-title{font-size: 1.5rem!important; font-family: 'Optima'!important;}
+	.blog-post-thumnail-img{width:100%;}
+	.blog-post-thumnail-img img{width:100%;margin: 0px!important;}
+	.blog-post-thumnail-content {text-align: center;width: 100%;font-family: 'Gilda Display Regular';font-size: 1.5rem!important;}
+	/*logo image*/
+	.logo img{max-width: 23vw;height: auto;margin-left: 0vw;}
+
+	/*sustain page*/
+	.subject-spacing{margin: 30px 0px!important;}
+	.subject-title {margin: 7vw 0!important;font-size: 1.75rem!important;text-align: center;}
+	.subject-content{line-height: 1.25!important;font-size: 1.6rem!important; margin-bottom: 5vw!important;}
+	.subject-title-1{margin: 7vw 0!important;font-size: 1.75rem!important;text-align: center}
+
+	.page-header.type5.header-newskin .block-search .label{
+		margin-right: 0px!important;
+	}
+
+}
+/* --------------------------------------------------------------------------------------------------------------------- < 768 - 1439 >*/
+@media (min-width: 768px) and (max-width: 1200px){
+
+
+
+}
+@media (min-width: 768px) and (max-width: 1438px){
+
+}
+/* --------------------------------------------------------------------------------------------------------------------- <768 */
+@media (min-width: 768px) {
+
+	.page-header.type5.header-newskin .minicart-wrapper .block-minicart{
+		right: 3px!important;
+	}
+
+	.wear-with-head-title{font-size: 3.5rem;margin: 5vw 0;color: black;font-family: 'Optima'}
+
+	.swatch-option.color{
+		min-width: 30px!important;
+		height: 30px!important;
+		border-radius: 20px;
+	}
+
+	.opc-sidebar{
+		width: 45%!important;
+	}
+	.opc-wrapper{
+		width: 55%!important;
+	}
+
+	.cms-loragene-homepage .logo img{
+		display:none!important;
+	}
+
+	.cms-index-index .page-header.type5.header-newskin{
+		position: inherit!important;
+	}
+
+
+
+	.page-header.type5.header-newskin .header.content{
+		padding: 18px 0px!important;
+	}
+	.sw-megamenu.navigation li.level0.fullwidth>.submenu{
+		max-width: 67%!important;
+	}
+
+	.about_title_property{
+		color: black;
+		margin: 5rem!important;
+	}
+
+	.blog-fullwidth-row{
+		width: 100%;
+		margin: 0 0vw 5vw!important;
+	}
+
+	.subject-spacing {
+		margin: 7vw 0!important;
+	}
+
+}
+
+/* --------------------------------------------------------------------------------------------------------------------- <768 - 991 >*/
+@media (min-width: 768px) and (max-width: 991px) {
+	.custom-f-size1{font-size: 1rem!important;}
+	.custom-f-size2{font-size: 1rem!important;}
+	.custom-f-size3{font-size: 1rem!important;}
+	.custom-f-size4{font-size: 1.2rem!important;}
+	.custom-f-size5{font-size: 1.5rem!important;}
+	.custom-f-size6{font-size: 2.1rem!important;}
+	.custom-f-size7{font-size: 2.25rem!important;}
+	.custom-f-size8{font-size: 2.3rem!important;}
+	.custom-f-size9{font-size: 3.1rem!important;}
+	.custom-f-size10{font-size: 3.4rem!important;}
+
+	.f-8{font-size: 8rem!important;}
+	.f-7{font-size: 7rem!important;}
+	.f-6{font-size: 3rem!important;}
+	.f-5{font-size: 2.25rem!important;}
+	.f-4{font-size: 1.5rem!important;}
+	.f-3{font-size: 1.15rem!important;}
+	.f-2{font-size: 1.25rem!important;}
+	.f-1{font-size: 1rem!important;}
+
+	/*logo image*/
+	.logo img{max-width: 23vw;height: auto;margin-left: 3vw;}
+
+	/*category page ----start*/
+	.category_product_list{height: 70vw;object-fit: cover;}
+
+
+
+	.gallery-img-detail{
+		width: 100%;
+		height: 70vw;
+		object-fit: cover;
+		transform: scale(1.05);
+	}
+
+	.page-header.header-newskin .navigation li.level0.fullwidth .submenu li.level1 > a, .page-header.header-newskin .navigation li.level0.staticwidth .submenu li.level1 > a{margin-top: 1.5rem!important;}
+	.submenu-space{margin-top: 1.5rem; margin-bottom: 4px;}
+
+	/*beauty -banner  --start*/
+	.beauty-banner{
+		margin-left: 7vw;
+		margin-top: -3rem;
+	}
+
+	.beauty-banner-title{
+		font-weight: 500;
+		font-size: 3rem;
+	}
+	.beauty-banner-content{
+		font-family: 'Optima';
+		color: #717171;
+		font-weight: 500;
+		font-size: 2rem;
+	}
+	.beauty-banner-action{
+		margin-top: 2vw;
+		width: 13vw;
+		height: 4rem!important;
+		font-size: 1.5rem!important;
+		background: white!important;
+		border: 0px solid #ccc!important;
+	}
+	/*beauty -banner end*/
+
+	/*	blog post*/
+	.post-header .post-title{font-size: 1.75rem!important; font-family: 'Optima'!important;}
+	.blog-post-thumnail-img{width:100%;}
+	.blog-post-thumnail-img img{width:100%;margin: 0px!important;}
+	.blog-post-thumnail-content {text-align: center;width: 100%;font-family: 'Gilda Display Regular';font-size: 1.5rem!important;}
+
+	/*sustain page*/
+	.subject-title {margin: 4vw 0!important;font-size: 2rem!important;}
+	.subject-content{line-height: 1.35!important;font-size: 1.5rem!important;}
+	.subject-title-1{margin: 0px 0 2vw 0!important;font-size: 1.75rem!important;}
+
+	/*top menu*/
+	.ui-menu-item.level0.fullwidth.parent a.level-top{font-size: 1.5rem!important;padding: 0 5px 0 0!important;}
+	.ui-menu-item.level0 a.level-top{font-size: 1.5rem!important;padding: 0 5px 0 0!important;}
+	.top-menu-size{font-size: 1.5rem!important;}
+
+	/*top page top title*/
+	.top-slid-top-content{margin-left: 2vw;}
+	.top-slid-top-title{font-size: 4rem!important;letter-spacing: 3px;margin-bottom: 15px;}
+	.top-slid-top-title-content{font-size: 1.5rem!important;letter-spacing: 3px;margin-bottom: 15px;}
+	.top-slid-top-title-button{font-size: 2.25rem!important;   letter-spacing: 3px;}
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------  991 >*/
+@media (max-width: 991px) {
+
+
+
+}
+
+/* --------------------------------------------------------------------------------------------------------------------- < 992 */
+@media (min-width: 992px) {
+	.category_product_list{
+		height: 40vw;
+		object-fit: cover;
+	}
+
+	.submenu-space{margin-top: 2rem; margin-bottom: 4px;}
+
+}
+
+
+@media(max-width: 1199px) {
+
+}
+
+/* --------------------------------------------------------------------------------------------------------------------- < 992 - 1199
+
+*/
+@media (min-width: 992px) and (max-width: 1199px) {
+	.custom-f-size1{font-size: 1rem!important;}
+	.custom-f-size2{font-size: 1rem!important;}
+	.custom-f-size3{font-size: 1.1rem!important;}
+	.custom-f-size4{font-size: 1.3rem!important;}
+	.custom-f-size5{font-size: 1.6rem!important;}
+	.custom-f-size6{font-size: 2.25rem!important;}
+	.custom-f-size7{font-size: 2.45rem!important;}
+	.custom-f-size8{font-size: 2.5rem!important;}
+	.custom-f-size9{font-size: 3.25rem!important;}
+	.custom-f-size10{font-size: 3.6rem!important;}
+
+
+	.f-8{font-size: 8rem!important;}
+	.f-7{font-size: 7rem!important;}
+	.f-6{font-size: 3.5rem!important;}
+	.f-5{font-size: 2.35rem!important;}
+	.f-4{font-size: 1.65rem!important;}
+	.f-3{font-size: 1.25rem!important;}
+	.f-2{font-size: 1.25rem!important;}
+	.f-1{font-size: 1rem!important;}
+
+	/*logo image*/
+	.logo img{max-width: 23vw;height: auto;margin-left: 30px;}
+
+	.gallery-img-detail{
+		width: 100%;
+		height: 70vw;
+		object-fit: cover;
+		transform: scale(1.05);
+	}
+
+	/*beauty -banner  --start*/
+	.beauty-banner{
+		margin-left: 7vw;
+		margin-top: -3rem;
+	}
+
+	.beauty-banner-title{
+		font-weight: 500;
+		font-size: 3rem;
+	}
+	.beauty-banner-content{
+		font-family: 'Optima';
+		color: #717171;
+		font-weight: 500;
+		font-size: 2rem;
+	}
+	.beauty-banner-action{
+		margin-top: 2vw;
+		width: 13vw;
+		height: 4rem!important;
+		font-size: 1.5rem!important;
+		background: white!important;
+		border: 0px solid #ccc!important;
+	}
+	/*beauty -banner end*/
+
+
+	/*main menu setting-----------start*/
+	.ui-menu-item.level0.fullwidth.parent a.level-top{font-size: 1.75rem!important;padding: 0 10px 0 0!important;}
+	.ui-menu-item.level0 a.level-top{font-size: 1.75rem!important;padding: 0 10px 0 0!important;}
+	.top-menu-size{font-size: 1.75rem!important;}
+
+	/*	blog post*/
+	.post-header .post-title{font-size: 2rem!important; font-family: 'Optima'!important;}
+	.blog-post-thumnail-img{width:100%;}
+	.blog-post-thumnail-img img{width:100%;margin: 0px!important;}
+	.blog-post-thumnail-content {text-align: center;width: 100%;font-family: 'Gilda Display Regular';font-size: 1.6rem!important;}
+	/*sustain page*/
+	.subject-title {margin: 4vw 0!important;font-size: 2rem!important;}
+	.subject-content{line-height: 1.5!important;font-size: 1.6rem!important;}
+	.subject-title-1{margin: 0px 0 2vw 0!important;font-size: 1.75rem!important;}
+
+
+	/*top page top title*/
+	.top-slid-top-content{margin-left: 2vw;}
+	.top-slid-top-title{font-size: 4.5rem!important;letter-spacing: 3px;margin-bottom: 25px;}
+	.top-slid-top-title-content{font-size: 1.75rem!important;letter-spacing: 3px;margin-bottom: 25px;}
+	.top-slid-top-title-button{font-size: 2.5rem!important;   letter-spacing: 3px;}
+
+
+}
+
+/* --------------------------------------------------------------------------------------------------------------------- < 1200 */
+@media (min-width: 1200px) {
+
+	.logo img{
+		max-width: 26rem;
+		height: auto;
+		margin-left: 30px;
+	}
+
+	.top-menu-size{
+		font-size: 2rem!important;
+	}
+	/*main menu setting-----------start*/
+	.ui-menu-item.level0.fullwidth.parent a.level-top{
+		font-size: 2rem!important;
+	}
+	.ui-menu-item.level0 a.level-top{
+		font-size: 2rem!important;
+	}
+
+	.breadcrumbs{
+		margin-right: 130px!important;
+	}
+
+	.gallery-img-div{
+		overflow: hidden;
+	}
+
+	.gallery-img-detail{
+		width: 100%;
+		height: 62vw;
+		object-fit: cover;
+		transform: scale(1.05);
+	}
+
+	.product-info-main{
+		padding: 0 5vw;
+	}
+
+	.swatch-option.text {
+		min-width: 40px!important;
+		height: 40px!important;
+		line-height: 20px;
+		padding: 0 4px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-weight: 400;
+		font-size: 1.5rem!important;
+		margin: 1rem;
+	}
+/*	main top page*/
+
+
+
+/*	product page top margin*/
+	.product.media{
+		margin-top: 20px;
+	}
+	.product-info-main{
+		margin-top: 20px;
+	}
+
+	/*	blog post*/
+	.post-header .post-title{font-size: 2.5rem!important; font-family: 'Optima'!important;}
+	.blog-post-thumnail-img{width:100%;}
+	.blog-post-thumnail-img img{width:100%;margin: 0px!important;}
+	.blog-post-thumnail-content {text-align: center;width: 100%;font-family: 'Gilda Display Regular';font-size: 1.75rem!important;}
+
+}
+/* --------------------------------------------------------------------------------------------------------------------- <1200 - 1439 >*/
+@media (min-width: 1200px) and (max-width: 1438px){
+	.custom-f-size1{font-size: 1rem!important;}
+	.custom-f-size2{font-size: 1.15rem!important;}
+	.custom-f-size3{font-size: 1.35rem!important;}
+	.custom-f-size4{font-size: 1.5rem!important;}
+	.custom-f-size5{font-size: 1.8rem!important;}
+	.custom-f-size6{font-size: 2.35rem!important;}
+	.custom-f-size7{font-size: 2.65rem!important;}
+	.custom-f-size8{font-size: 2.8rem!important;}
+	.custom-f-size9{font-size: 3.25rem!important;}
+	.custom-f-size10{font-size: 3.8rem!important;}
+
+	.f-8{font-size: 8rem!important;}
+	.f-7{font-size: 7rem!important;}
+	.f-6{font-size: 4rem!important;}
+	.f-5{font-size: 2.5rem!important;}
+	.f-4{font-size: 1.75rem!important;}
+	.f-3{font-size: 1.35rem!important;}
+	.f-2{font-size: 1.25rem!important;}
+	.f-1{font-size: 1rem!important;}
+
+	.page-main{
+		padding: 0 5vw!important;
+	}
+	.blog-fullwidth-row{
+		width: 100vw;
+		margin: 0 -5vw 5vw!important;
+	}
+
+	/*beauty -banner  --start*/
+	.beauty-banner{
+		margin-left: 7vw;
+		margin-top: -3rem;
+	}
+
+	.beauty-banner-title{
+		font-weight: 500;
+		font-size: 3rem;
+	}
+	.beauty-banner-content{
+		font-family: 'Optima';
+		color: #717171;
+		font-weight: 500;
+		font-size: 2rem;
+	}
+	.beauty-banner-action{
+		margin-top: 2vw;
+		width: 10vw;
+		height: 5rem!important;
+		font-size: 1.5rem!important;
+		background: white!important;
+		border: 0px solid #ccc!important;
+	}
+	/*beauty -banner end*/
+	/*sustain page*/
+	.subject-title {margin: 5vw 0!important;font-size: 2rem!important;}
+	.subject-content{line-height: 1.5!important;font-size: 1.75rem!important;}
+	.subject-title-1{margin: 0px 0 3vw 0!important; font-size: 2rem!important;}
+
+	/*top page top title*/
+	.top-slid-top-content{margin-left: 2vw;}
+	.top-slid-top-title{font-size: 4.5rem!important;letter-spacing: 3px;margin-bottom: 25px;}
+	.top-slid-top-title-content{font-size: 1.75rem!important;letter-spacing: 3px;margin-bottom: 25px;}
+	.top-slid-top-title-button{font-size: 2.5rem!important;   letter-spacing: 3px;}
+
+}
+
+/* --------------------------------------------------------------------------------------------------------------------- <1439 */
+@media (min-width: 1439px) {
+	.custom-f-size1{font-size: 1rem!important;}
+	.custom-f-size2{font-size: 1.25rem!important;}
+	.custom-f-size3{font-size: 1.5rem!important;}
+	.custom-f-size4{font-size: 1.75rem!important;}
+	.custom-f-size5{font-size: 2rem!important;}
+	.custom-f-size6{font-size: 2.5rem!important;}
+	.custom-f-size7{font-size: 2.75rem!important;}
+	.custom-f-size8{font-size: 3rem!important;}
+	.custom-f-size9{font-size: 3.5rem!important;}
+	.custom-f-size10{font-size: 4rem!important;}
+
+
+	.f-8{font-size: 8rem!important;}
+	.f-7{font-size: 7rem!important;}
+	.f-6{font-size: 4.5rem!important;}
+	.f-5{font-size: 3rem!important;}
+	.f-4{font-size: 2rem!important;}
+	.f-3{font-size: 1.5rem!important;}
+	.f-2{font-size: 1.25rem!important;}
+	.f-1{font-size: 1rem!important;}
+
+
+
+
+	.checkout-container{
+		padding: 0 150px;
+	}
+
+	.page-main{
+		padding: 0 10vw!important;
+	}
+
+	.blog-fullwidth-row{
+		width: 100vw;
+		margin: 0 -10vw 8vw!important;
+	}
+
+	/*beauty -banner  --start*/
+	.beauty-banner{
+		margin-left: 7vw;
+		margin-top: -4vw;
+	}
+
+	.beauty-banner-title{
+		font-weight: 500;
+		font-size: 4rem;
+	}
+	.beauty-banner-content{
+		font-family: 'Optima';
+		color: #717171;
+		font-weight: 500;
+		font-size: 2.5rem;
+	}
+	.beauty-banner-action{
+		margin-top: 2vw;
+		width: 10vw;
+		height: 5rem!important;
+		font-size: 1.5rem!important;
+		background: white!important;
+		border: 0px solid #ccc!important;
+	}
+	/*beauty -banner end*/
+
+
+/*sustain page*/
+	.subject-title {margin: 5vw 0!important;font-size: 2.5rem!important;}
+	.subject-content{line-height: 1.5!important;font-size: 1.9rem!important;}
+	.subject-title-1{margin: 0px 0 3vw 0!important; font-size: 2.5rem!important;}
+
+	/*top page top title*/
+	.top-slid-top-content{margin-left: 2vw;}
+	.top-slid-top-title{font-size: 5rem!important;letter-spacing: 5px;margin-bottom: 35px;}
+	.top-slid-top-title-content{font-size: 2rem!important;letter-spacing: 5px;margin-bottom: 35px;}
+	.top-slid-top-title-button{font-size: 3rem!important;   letter-spacing: 5px;}
+}
+
+.category-view{
+	margin-bottom: 4rem;
+}
+
+
+
+.product-item-info.type9 .product-item-inner{
+	right: 0px!important;
+	bottom: 0px!important;
+}
+
+.product-item-inner{
+	width: 100%;
+	background: white;
+}
+
+.product-item-inner .swatch-attribute-options.clearfix{
+	display: flex;
+	justify-content: center;
+}
+.product-item-inner .swatch-attribute-options.clearfix .swatch-option.text{
+	min-width: 30px!important;
+	height: 30px!important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1rem!important;
+	margin: 0.1rem;
+}
+
+.product-item-inner .swatch-attribute-options.clearfix .swatch-option{
+	pointer-events: none!important;
+	cursor: default!important;
+}
+
+.product-info-main #option-label-capacity-626-item-121{
+	background: #f0f0f000!important;
+	border: 0px solid #dadada!important;
+	left: 5vw!important;
+}
+
+.product-info-main #option-label-capacity-626-item-120{
+	background: #f0f0f000!important;
+	border: 0px solid #dadada!important;
+	left: 5vw!important;
+}
+
+
+.login-container .action.primary{
+	color: #000000!important;
+}
+
+.swatch-option.image:not(.disabled):hover, .swatch-option.color:not(.disabled):hover{
+	outline: 1px solid #6c757d!important;
+}
+
+.swatch-option.selected{
+	outline: 1px solid #6c757d!important;
+}
+
+.opc-block-summary .product-item-inner{
+	background: #ffffff00!important;
+}
+
+.field.field-name-prefix{
+	width: 80px!important;
+}
+
+/*beauty -banner  --start*/
+
+
+.beauty-banner-title{
+	color: #717171;
+}
+.beauty-banner-content{
+	font-family: 'Optima';
+	color: #717171;
+}
+.beauty-banner-action{
+	font-family: 'Optima';
+	color: #717171!important;
+	text-decoration:none!important;
+}
+/*beauty -banner end*/
+
+
+/*add to wishlist*/
+
+.product-info-main .product-addto-links > a.action, .product-info-main .product-addto-links + a.action.mailto .action.towishlist{
+	width: auto!important;
+	height: 43px;
+	line-height: 41px;
+	padding: 0 1rem!important;
+}
+
+.product-addto-links .action span, .moved-add-to-links .action span, .product-social-links .action span{
+	display: block!important;
+}
+
+.product-info-main .product-addto-links .action.tocompare{
+	display: none!important;
+}
+
+.product-social-links .action.towishlist:before, .product-addto-links .action.towishlist:before, .block-bundle-summary .action.towishlist:before, .product-item .action.towishlist:before, .table-comparison .action.towishlist:before{
+	display: none!important;
+}
+
+.gallery-img-div{
+	overflow: hidden;
+}
+
+.post-holder .post-date{
+	display: none!important;
+}
+
+.post-holder{
+	 margin-left: 0px!important;
+	border-bottom: 0px solid #ddd!important;
+}
+.post-footer{
+	display: none;
+}
+
+.nextprev-link.next-link{
+	float: right;
+}
+
+.fotorama__stage{
+	border: 0px solid #ddd!important;
+}
+
+/*sustain page*/
+.subject-title{text-align: center}
+.subject-content{text-align: center}
+.subject-title-1{text-align: center}
+
+
+
+addthis_toolbox.addthis_default_style{
+	display: none!important;
+}
+/*sustainabilty page*/
+.top-margin{
+  margin-top: 1vw!important;
+}
+
+.addthis_toolbox.addthis_default_style a span{
+	background-color: #D3D3D3!important;
+}
+.atm-i .atm-s a span.at-icon-wrapper{
+	background-color: #D3D3D3!important;
+}
+
+/*.fotorama__stage .fotorama__fullscreen-icon{*/
+/*	display: none!important;*/
+/*}*/
+
+.fotorama__fullscreen-icon:before{
+	content: "\f879"!important;
+	font-size: 20px!important;
+	line-height: 50px!important;
+}
+
+#stripe-payments-card-number{
+	width: 250px!important;
+}
+
+.category-description{
+	text-align: center;
+}
+
+.sus_origin_story .widget.block.block-static-block{
+	width: 100%;
+	height: 100%;
+}
+.sus_origin_story .widget.block.block-static-block img{
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+
+.block-static-block.widget{margin-bottom: 0px;}
+
+
+.post-content .post-description img{
+	margin: 0px!important;
+}
+
+
+.nav-sections-item-switch{
+	font-family: 'Optima'!important;
+}
+.section-item-content.nav-sections-item-content .header.links li a{
+	font-family: 'Optima'!important;
+}
+
+.control.captcha-image .captcha-img{
+	max-height: max-content!important;
+	max-width: min-content!important;
+}
+
+
+
+
+
+
+
+
+
+
