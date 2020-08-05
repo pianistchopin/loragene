@@ -34,6 +34,7 @@
         <p class="f-4 m-0 text-align-center f-default-optima color-grey">We are shipping worldwide</p>
     </div>
 </div>
+
 <div class="row my-3 mx-0">
     <div class="col-md-8 px-md-0 px-4">
         {{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="183"}}
@@ -42,7 +43,7 @@
                 <div class="row d-flex justify-content-center"><!-- <h3 class="f-title f-3" style="color: white;">THE SILK STORY</h3> -->
                     <h3 class="f-default-optima color-white top-slid-top-title">The Silk Story</h3>
                 </div>
-                <div class="row d-flex justify-content-center mb-2"> <a class="f-default-optima color-white top-slid-top-title-button " href="/blog/post/true-silk-story">READ HERE</a></div>
+                <div class="row d-flex justify-content-center mb-2"> <a class="f-default-optima color-white top-slid-top-title-button " href="{{customVar code=home_silkstory_link_url}}">READ HERE</a></div>
             </div>
         </div>
     </div>
@@ -60,7 +61,7 @@
                     </p>
                 </div>
                 <div class="row justify-content-center mt-5">
-                    <a class="f-default-optima color-grey top-slid-top-title-button " href="/blog/post/true-silk-story">
+                    <a class="f-default-optima color-grey top-slid-top-title-button " href="{{customVar code=home_silkstory_link_url}}">
                         {{customVar code=home_silkstory_link}}
                     </a>
                 </div>

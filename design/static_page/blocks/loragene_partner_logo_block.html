@@ -1,9 +1,12 @@
 <div class="partner-logo-container">
+    <div class="row justify-content-center">
+        <p class="partner-logo-title">Recommended by:</p>
+    </div>
     <div class="row">
-        <div class="col-md-6 d-flex justify-content-center align-items-center">
+        <div class="col-6 d-flex justify-content-center align-items-center">
             <img class="partner-logo-img" src="{{media url=&quot;logo/stores/the-independent-vector-logo.jpg&quot;}}" alt="" />
         </div>
-        <div class="col-md-6 d-flex justify-content-center align-items-center">
+        <div class="col-6 d-flex justify-content-center align-items-center">
             <img class="partner-logo-img" src="{{media url=&quot;logo/stores/VogueBusiness_logo_RGB_black.jpg&quot;}}" alt="" />
         </div>
     </div>
@@ -14,11 +17,20 @@
         height: 55px;
         width: auto;
     }
+    .partner-logo-title{
+        margin: 50px 0!important;
+        font-size: 24px;
+    }
 
     @media(max-width:768px){
         .partner-logo-img {
-            height: 40px;
+            height: 30px;
             width: auto;
+            margin: 50px 0;
+        }
+        .partner-logo-title{
+            margin: 50px 0 0!important;
+            font-size: 18px;
         }
     }
 </style>

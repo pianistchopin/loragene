@@ -164,6 +164,9 @@ body{
 }
 /*product page-----------------end*/
 
+.footer-top{
+	padding: 50px 0 0!important;
+}
 
 /* --------------------------------------------------------------------------------------------------------------------- < 640 */
 @media (max-width: 640px) {
@@ -551,7 +554,7 @@ body{
 
 	/*top page top title*/
 	.top-slid-top-content{margin-left: 2vw;}
-	.top-slid-top-title{font-size: 4rem!important;letter-spacing: 3px;margin-bottom: 15px;}
+	.top-slid-top-title{font-size: 2rem!important;letter-spacing: 3px;margin-bottom: 15px;}
 	.top-slid-top-title-content{font-size: 1.5rem!important;letter-spacing: 3px;margin-bottom: 15px;}
 	.top-slid-top-title-button{font-size: 2.25rem!important;   letter-spacing: 3px;}
 }
@@ -661,7 +664,7 @@ body{
 
 	/*top page top title*/
 	.top-slid-top-content{margin-left: 2vw;}
-	.top-slid-top-title{font-size: 4.5rem!important;letter-spacing: 3px;margin-bottom: 25px;}
+	.top-slid-top-title{font-size: 2.5rem!important;letter-spacing: 3px;margin-bottom: 25px;}
 	.top-slid-top-title-content{font-size: 1.75rem!important;letter-spacing: 3px;margin-bottom: 25px;}
 	.top-slid-top-title-button{font-size: 2.5rem!important;   letter-spacing: 3px;}
 
@@ -800,7 +803,7 @@ body{
 
 	/*top page top title*/
 	.top-slid-top-content{margin-left: 2vw;}
-	.top-slid-top-title{font-size: 4.5rem!important;letter-spacing: 3px;margin-bottom: 25px;}
+	.top-slid-top-title{font-size: 3rem!important;letter-spacing: 3px;margin-bottom: 25px;}
 	.top-slid-top-title-content{font-size: 1.75rem!important;letter-spacing: 3px;margin-bottom: 25px;}
 	.top-slid-top-title-button{font-size: 2.5rem!important;   letter-spacing: 3px;}
 
@@ -879,7 +882,7 @@ body{
 
 	/*top page top title*/
 	.top-slid-top-content{margin-left: 2vw;}
-	.top-slid-top-title{font-size: 5rem!important;letter-spacing: 5px;margin-bottom: 35px;}
+	.top-slid-top-title{font-size: 3.5rem!important;letter-spacing: 5px;margin-bottom: 35px;}
 	.top-slid-top-title-content{font-size: 2rem!important;letter-spacing: 5px;margin-bottom: 35px;}
 	.top-slid-top-title-button{font-size: 3rem!important;   letter-spacing: 5px;}
 }
