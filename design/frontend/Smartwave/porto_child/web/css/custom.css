@@ -690,6 +690,10 @@ body{
 /* --------------------------------------------------------------------------------------------------------------------- < 1200 */
 @media (min-width: 1200px) {
 
+	.gene-join-corporation{
+		width: 70%;
+	}
+
 	.logo img{
 		max-width: 26rem;
 		height: auto;
@@ -1114,6 +1118,35 @@ addthis_toolbox.addthis_default_style{
 .control.captcha-image .captcha-img{
 	max-height: max-content!important;
 	max-width: min-content!important;
+}
+
+#bss-cookie-notice{
+	max-width: 100%!important;
+	width: 100%!important;
+	display: inline-flex!important;
+	 border-radius: 0px!important;
+	 box-shadow: initial!important;
+	padding: 15px 10px!important;
+	z-index: 100000!important;
+}
+#bss-cookie-notice .btn-cookie-accept{
+	position: absolute!important;
+	right: 10px!important;
+}
+#bss-cookie-notice .btn-cookie{
+	margin-left: 10px;
+}
+.btn-cookie.btn-cookie-more-infor{
+	padding: 0px!important;
+}
+.btn-cookie.btn-cookie-more-infor:hover{
+	background-color: initial!important;
+}
+
+@media screen and (max-width: 768px){
+	#bss-cookie-notice{
+		display: block!important;
+	}
 }
 
 
