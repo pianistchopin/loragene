@@ -476,6 +476,29 @@ body{
 		margin: 7vw 0!important;
 	}
 
+	#bss-cookie-notice{
+		max-width: 100%!important;
+		width: 100%!important;
+		display: inline-flex;
+		border-radius: 0px!important;
+		box-shadow: initial!important;
+		padding: 15px 10px!important;
+		z-index: 100000!important;
+	}
+	#bss-cookie-notice .btn-cookie-accept{
+		position: absolute!important;
+		right: 10px!important;
+	}
+	#bss-cookie-notice .btn-cookie{
+		margin-left: 10px;
+	}
+	.btn-cookie.btn-cookie-more-infor{
+		padding: 0px!important;
+	}
+	.btn-cookie.btn-cookie-more-infor:hover{
+		background-color: initial!important;
+	}
+
 }
 
 /* --------------------------------------------------------------------------------------------------------------------- <768 - 991 >*/
@@ -1119,36 +1142,6 @@ addthis_toolbox.addthis_default_style{
 	max-height: max-content!important;
 	max-width: min-content!important;
 }
-
-#bss-cookie-notice{
-	max-width: 100%!important;
-	width: 100%!important;
-	display: inline-flex!important;
-	 border-radius: 0px!important;
-	 box-shadow: initial!important;
-	padding: 15px 10px!important;
-	z-index: 100000!important;
-}
-#bss-cookie-notice .btn-cookie-accept{
-	position: absolute!important;
-	right: 10px!important;
-}
-#bss-cookie-notice .btn-cookie{
-	margin-left: 10px;
-}
-.btn-cookie.btn-cookie-more-infor{
-	padding: 0px!important;
-}
-.btn-cookie.btn-cookie-more-infor:hover{
-	background-color: initial!important;
-}
-
-@media screen and (max-width: 768px){
-	#bss-cookie-notice{
-		display: block!important;
-	}
-}
-
 
 
 
